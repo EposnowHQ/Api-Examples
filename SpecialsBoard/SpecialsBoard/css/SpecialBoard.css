@@ -1,0 +1,73 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.frame {
+    padding: 10px;
+    border: 40px solid #ff6a00;
+    background-color: #000000;
+}
+
+@font-face {
+    font-family: 'ChalkBoard';
+    src: url('../Fonts/DK Crayon Crumble.ttf') format("truetype");
+}
+
+.chalk_100 {
+    font-family: 'ChalkBoard';
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.chalk_50 {
+    font-family: 'ChalkBoard';
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.chalk_10 {
+    font-family: 'ChalkBoard';
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.chalk_btn {
+    font-family: 'ChalkBoard';
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+    .chalk_btn:hover {
+        text-decoration: none;
+        color: #ff6a00;
+    }
+
+
+.empty_stock {
+    text-decoration: line-through;
+}
+
+.hide {
+    display: none;
+}
+
+.squaredTwo {
+    width: 20px;
+    height: 20px;
+    background: #fcfff4;
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+    -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+    position: relative;
+}
