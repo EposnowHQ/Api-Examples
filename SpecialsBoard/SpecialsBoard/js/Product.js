@@ -2,11 +2,11 @@
     var self = this;
 
     // Define URI routes for API
-    self.productURI = 'https://api.eposnowhq.com/v1/product/';
+    self.productURI = 'https://api.eposnowhq.com/api/v1/product/';
     self.stockUIR = 'https://api.eposnowhq.com/api/v1/productstock/';
 
     // Define your API access key
-    self.API_KEY = 'ENTER YOUR API KEY HERE';
+    self.API_KEY = 'ENTER YOUR "Authorization Token" HERE';
 
     // Array to hold all products from API
     self.products = new Array();
